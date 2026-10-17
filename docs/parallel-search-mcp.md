@@ -9,7 +9,7 @@ use; usage limits apply.
 ## Setup
 
 First complete the [Milky Frog setup](../README.md#setup), including your model
-configuration. You also need Node.js 20+ and `npx` on your host's `PATH`.
+configuration. You also need Node.js 22+ and `npx` on your host's `PATH`.
 Milky Frog's MCP client uses stdio, so
 [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) bridges it to Parallel's
 HTTP endpoint. The bridge runs on the host even when you use the Container Sandbox.
